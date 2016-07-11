@@ -91,6 +91,13 @@ body {
     text-align: center;
     padding: 200px 0;
     border-bottom: 1px #ebebeb solid;
+    opacity: 0;
+    /*transform: translateY(50px);*/
+    transition: all 1.5s ease-out;
+}
+.project.fade-in {
+    opacity: 1;
+    /*transform: translateY(0px); */
 }
 .project img {
     width: 180px;
@@ -101,6 +108,12 @@ body {
     margin: 0 auto;
     color: #294D67;
 }
+
+#main {
+    position: relative;
+    background: #fff;
+}
+
 #project01 h2 {
     color: #3DB3CE;
 }
